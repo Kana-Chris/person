@@ -54,5 +54,23 @@ public class Test {
 		yamato.talk();
 		yamato.walk();
 		yamato.run();
+		
+		Robot aibo = new Robot();
+		aibo.name = "aibo";
+		aibo.talk();
+		aibo.walk();
+		aibo.run();
+		
+		Robot asimo = new Robot();
+		asimo.name ="asimo";
+		asimo.talk();
+		asimo.walk();
+		asimo.run();
+		
+		Robot pepper = new Robot();
+		pepper.name = "pepper";
+		pepper.talk();
+		pepper.walk();
+		pepper.run();
 	}
 }
